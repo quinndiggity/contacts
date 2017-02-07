@@ -347,7 +347,9 @@ div.app-contacts span.utils {
 	position: relative !important;
 }
 
-input.newAddressBookInput, input.shareeInput, input.addressBookUrl {
+input.newAddressBookInput,
+input.shareeInput, input.addressBookUrl,
+.select2-drop .select2-search input {
 	width: 100% !important;
 }
 
@@ -404,6 +406,13 @@ contactimport .select2-container .select2-choice {
 	line-height: 31px;
 	border-radius: 0 0 3px 3px;
 	border-top: none;
+}
+
+contactimport .select2-drop-active {
+	border-top: 1px solid #ddd;
+	box-shadow: 0 -1px 5px rgba(0, 0, 0, .15);
+	border-radius: 3px 3px 0 0;
+	margin-top: initial;
 }
 
 contactimport .ui-select-offscreen {
