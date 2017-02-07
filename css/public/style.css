@@ -354,7 +354,7 @@ input.newAddressBookInput, input.shareeInput, input.addressBookUrl {
 .addressBookList form {
 	position: relative;
 }
-.newAddressBookSubmit {
+addressBookList input[type='submit'].newAddressBookSubmit {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -404,6 +404,10 @@ contactimport .select2-container .select2-choice {
 	line-height: 31px;
 	border-radius: 0 0 3px 3px;
 	border-top: none;
+}
+
+contactimport .ui-select-offscreen {
+	display: none;
 }
 
 /* Contacts List */
