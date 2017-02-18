@@ -630,12 +630,12 @@ detailsitem .select2-container {
 /* Animation */
 @keyframes pulse {
 	0% {
-		box-shadow: 0 0 0 0 rgba(100,100,100,.4);
+		box-shadow: 0 0 0 0 rgba(50,50,50,.4);
 	}
 	70% {
-		box-shadow: 0 0 0 10px rgba(100,100,100,0);
+		box-shadow: 0 0 0 15px rgba(50,50,50,0);
 	}
 	100% {
-		box-shadow: 0 0 0 0 rgba(100,100,100,0);
+		box-shadow: 0 0 0 0 rgba(50,50,50,0);
 	}
 }
