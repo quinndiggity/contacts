@@ -131,7 +131,10 @@ angular.module('contactsApp')
 			},
 			options: [
 				{id: 'FACEBOOK', name: 'Facebook'},
+				{id: 'INSTAGRAM', name: 'Instagram'}
+				{id: 'LINKEDIN', name: 'Linkedin'},
 				{id: 'TWITTER', name: 'Twitter'}
+
 			]
 
 		}
