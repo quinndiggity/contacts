@@ -94,11 +94,11 @@ angular.module('contactsApp')
 			template: 'text',
 			defaultValue: {
 				value:[''],
-				meta:{type:['HOME']}
+				meta:{type:['SKYPE']}
 			},
 			options: [
-				{id: 'HOME', name: t('contacts', 'Home')},
-				{id: 'WORK', name: t('contacts', 'Work')},
+				{id: 'SKYPE', name: t('contacts', 'Skype')},
+				{id: 'TELEGRAM', name: t('contacts', 'Telegram')},
 				{id: 'OTHER', name: t('contacts', 'Other')}
 			]
 		},
